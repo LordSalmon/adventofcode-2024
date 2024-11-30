@@ -7,12 +7,6 @@ import (
 )
 
 func ReadAOCInput(day int, part int) string {
-	file, err := os.Open("./inputs/day" + strconv.Itoa(day) + "_" + strconv.Itoa(part) + ".txt")
-	if err != nil {
-		panic(err)
-	}
-	defer file.Close()
-
 	data, err := os.ReadFile("./inputs/day" + strconv.Itoa(day) + "_" + strconv.Itoa(part) + ".txt")
 	if err != nil {
 		panic(err)

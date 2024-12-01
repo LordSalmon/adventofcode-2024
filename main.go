@@ -3,11 +3,11 @@ package main
 import (
 	"fmt"
 
-	"github.com/lordsalmon/adventofcode-2024/utils"
+	script "aoc2024/days/1/2"
 )
 
 func main() {
 	fmt.Println("Advent of Code 2024")
 	fmt.Println("Made with love by Simon Schwedes ♥")
-	fmt.Println(utils.GetAOCInputLines(1, 1))
+	script.Run()
 }

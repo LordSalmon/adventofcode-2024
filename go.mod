@@ -1,3 +1,3 @@
-module github.com/lordsalmon/adventofcode-2024
+module aoc2024
 
 go 1.23.3

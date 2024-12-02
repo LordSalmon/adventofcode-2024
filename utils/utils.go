@@ -18,3 +18,15 @@ func ReadAOCInput(day int, part int) string {
 func GetAOCInputLines(day int, part int) []string {
 	return strings.Split(ReadAOCInput(day, part), "\n")
 }
+
+func ParseLineToIntSlice(line string) []int {
+	var data []int
+	for _, element := range strings.Split(line, " ") {
+		value, err := strconv.Atoi(element)
+		if err != nil {
+			panic(err)
+		}
+		data = append(data, value)
+	}
+	return data
+}

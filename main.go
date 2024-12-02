@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	script "aoc2024/days/1/2"
+	script "aoc2024/days/2/2"
 )
 
 func main() {

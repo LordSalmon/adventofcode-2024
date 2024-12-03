@@ -1,9 +1,8 @@
 package main
 
 import (
+	script "aoc2024/days/3/2"
 	"fmt"
-
-	script "aoc2024/days/2/2"
 )
 
 func main() {

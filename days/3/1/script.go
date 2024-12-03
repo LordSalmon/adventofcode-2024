@@ -33,7 +33,6 @@ func getMulStatements(content string) [][]int {
 				content = stripMulPrefix(content)
 				continue
 			}
-			//fmt.Println(content[startIndex : startIndex+len(mulContent)+5])
 			out = append(out, []int{first, second})
 			content = stripContentFromMulStatement(content, startIndex, mulContent)
 		} else {

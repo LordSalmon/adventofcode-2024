@@ -1,7 +1,7 @@
 package main
 
 import (
-	script "aoc2024/days/3/2"
+	script "aoc2024/days/4/2"
 	"fmt"
 )
 

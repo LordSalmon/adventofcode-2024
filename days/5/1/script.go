@@ -56,7 +56,6 @@ func parseInstructions(lines []string) [][]int {
 func getCorrectInstructions(instructions [][]int, rules [][]int) [][]int {
 	var out [][]int
 	for _, instruction := range instructions {
-		fmt.Println(instruction)
 		significantRules := getSignificantRulesForInstruction(instruction, rules)
 		isValid := true
 		for _, rule := range significantRules {
@@ -71,7 +70,6 @@ func getCorrectInstructions(instructions [][]int, rules [][]int) [][]int {
 			out = append(out, instruction)
 		}
 	}
-	fmt.Println("==========================")
 	return out
 }
 

@@ -10,7 +10,7 @@ func Run() {
 	lines := utils.GetAOCInputLines(2, 1)
 	safeCount := 0
 	for _, line := range lines {
-		if isReportSave(utils.ParseLineToIntSlice(line)) {
+		if isReportSave(utils.ParseLineToIntSlice(line, " ")) {
 			safeCount++
 		}
 	}
